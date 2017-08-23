@@ -1,0 +1,35 @@
+.component-copy-to-clipboard {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  overflow:hidden;
+  position:fixed;
+  bottom:0px;
+}
+
+.component-copy-to-clipboard > div {
+  margin: 0 10px 5px 10px;
+}
+
+.component-copy-to-clipboard input {
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 10px 8px;
+  width: 75%;
+}
+
+.component-copy-to-clipboard .copy-button {
+  width: 22%;
+  background-color: rgba(0, 0, 0, 0.23);
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 0 0 2%;
+  box-sizing: border-box;
+  padding: 12.5px;
+}
+
+.component-copy-to-clipboard .copy-button:hover {
+  background-color: rgba(50, 129, 136, 0.71);
+}
